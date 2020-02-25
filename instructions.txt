@@ -2,7 +2,7 @@
 #
 # 1) git clone https://github.com/cmcdgit/recursiveGrepTool.git ~/.reGrep
 # 2) chmod 744 ~/.reGrep/installReGrep.sh
-# 2) sh ~/.reGrep/install_basic_vimrc.sh
+# 2) sh ~/.reGrep/installReGrep.sh
 #
 #
 #
