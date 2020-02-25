@@ -4,9 +4,6 @@ set -e
 sudo apt update
 sudo apt install -y vim
 
-chmod 744 reGrep.sh
-chmod 664 folderLocation.txt
-
 echo "---------------------------------------------------------------------------------------" >> $HOME/.bashrc
 echo "alias reGrep='sh $HOME/.reGrep/reGrep.sh'" >> $HOME/.bashrc
 echo "export FOLDER=$(cat $HOME/.reGrep/folderLocation.txt | grep -v '^#')" >> $HOME/.bashrc
