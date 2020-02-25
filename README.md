@@ -5,7 +5,7 @@
  Installation instructions
 
   1) git clone https://github.com/cmcdgit/recursiveGrepTool.git ~/.reGrep
-  2) chmod 744 ~/.reGrep/installReGrep.sh
+  2) chmod 744 ~/.reGrep/installReGrep.sh ~/.reGrep/reGrep.sh
   3) sh ~/.reGrep/installReGrep.sh
 
 
