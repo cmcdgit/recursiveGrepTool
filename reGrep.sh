@@ -13,6 +13,9 @@ echo ' - :%!grep -r whatYouAreLookingFor  to reverse filter'
 echo ''
 echo ' open source'
 echo ' - press <Ctrl + W> then <Ctrl + G> then <Shift + F> to open the source'
+echo ""
+echo ' filetypes'
+echo ' - add  --include *.c  or --include=*.{py, c, go, js}'
 echo ''
 echo " quit"
 echo ' - :qall!  to quit type'
