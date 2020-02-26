@@ -2,6 +2,7 @@
 
 source $HOME/.bashrc
 
+echo '---------------------------------------'
 echo '   Recursive Grep tool'
 echo '---------------------------------------'
 echo " navigate"
@@ -21,12 +22,12 @@ echo ''
 sleep 5
 
 srchFor=$@
-#searchFldr=$FOLDER
+searchFldr=$FOLDER
 loc=$HOME/.reGrep/.lastfounddocs
 
 echo '' > $loc
-#grep -rl $srchFor $searchFldr --color >> $loc
-grep -rl $srchFor $FOLDER --color >> $loc
+grep -rl $srchFor $searchFldr --color >> $loc
+#grep -rl $srchFor $FOLDER --color >> $loc
 vim $loc
 
 
