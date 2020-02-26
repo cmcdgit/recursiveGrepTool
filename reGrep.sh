@@ -11,8 +11,12 @@ loc=$HOME/.reGrep/.lastfounddocs
       echo ' ---------------------------------------'
       echo " Searching..."
       echo " |  "
+      echo " |-- basic search "
+      echo " |   - reGrep whatYouAreLookingFor"
+      echo " |  "
       echo ' |-- filetypes'
       echo ' |   - add  --include *.c'
+      echo ' |   -  or  --include *.c --include *.py --include *.h  for multi selection'
       echo ' |   - add  reGrep . --include *.c  to search for all files with that ext'
       echo " ^"
       echo " Filtering..."

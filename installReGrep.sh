@@ -11,6 +11,6 @@ echo "#-------------------------------------------------------------------------
 
 echo ''
 echo "close and reopen you terminal then type"
-echo "reGrep hello (search for 'hello' using recursive-grep)"
+echo "reGrep -h  or reGrep --help  to get started"
 echo ''
 sleep 5
