@@ -1,5 +1,4 @@
 
-# FAILING AT THE MOMENT - PLEASE BE PATIENT
 # Recursive grep tool that allows you to set which folder to start your search
 
  Installation instructions
