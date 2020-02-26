@@ -10,6 +10,7 @@ echo "export FOLDER=$(cat $HOME/.reGrep/folderLocation.txt | grep -v '^#')" >> $
 echo "alias setFolder='vim $HOME/.reGrep/folderLocation.txt'" >> $HOME/.bashrc
 
 echo "---------------------------------------------------------------------------------------" >> $HOME/.bashrc
-source ~/.bashrc
-echo "type reGrep hello (search for 'hello' using recursive-grep)"
+#source ~/.bashrc
+echo "close and reopen you terminal then type"
+echo "reGrep hello (search for 'hello' using recursive-grep)"
 sleep 4
