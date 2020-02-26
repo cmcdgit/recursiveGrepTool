@@ -1,5 +1,5 @@
 
-# Recursive grep tool that allows you to set which folder to start your search
+# Recursive grep tool that allows a user to set a commonly used folder to search with useful VIM buffered output which can be easily accessed using the shortcuts from the help menu
 
  Installation instructions
 

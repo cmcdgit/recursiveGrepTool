@@ -14,4 +14,4 @@ echo ''
 echo "close and reopen you terminal then type"
 echo "reGrep hello (search for 'hello' using recursive-grep)"
 echo ''
-sleep 4
+sleep 5
