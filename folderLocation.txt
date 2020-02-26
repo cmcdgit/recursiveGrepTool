@@ -1,2 +1,2 @@
-# add # at the start of line to comment out a location that you will you again
+# add the full path to the folder location below
 $HOME/Programming/code

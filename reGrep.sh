@@ -19,8 +19,6 @@ echo ' - :qall!  to quit type'
 echo ''
 sleep 5
 
-source config.sh
-
 srchFor=$@
 searchFldr=$FOLDER
 loc=$HOME/.reGrep/.lastfounddocs

@@ -6,11 +6,13 @@ sudo apt install -y vim
 
 echo "#---------------------------------------------------------------------------------------" >> $HOME/.bashrc
 echo "alias reGrep='sh $HOME/.reGrep/reGrep.sh'" >> $HOME/.bashrc
-#echo "export FOLDER=$(cat $HOME/.reGrep/folderLocation.txt | grep -v '^#')" >> $HOME/.bashrc
+echo "export FOLDER=$(cat $HOME/.reGrep/folderLocation.txt | grep -v '^#')" >> $HOME/.bashrc
 echo "alias setFolder='vim $HOME/.reGrep/folderLocation.txt'" >> $HOME/.bashrc
 echo "#---------------------------------------------------------------------------------------" >> $HOME/.bashrc
 
 #source ~/.bashrc
+echo ''
 echo "close and reopen you terminal then type"
 echo "reGrep hello (search for 'hello' using recursive-grep)"
+echo ''
 sleep 4
