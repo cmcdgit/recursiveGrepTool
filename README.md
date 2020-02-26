@@ -6,6 +6,7 @@
 
   1) git clone https://github.com/cmcdgit/recursiveGrepTool.git ~/.reGrep
   2) chmod 744 ~/.reGrep/installReGrep.sh ~/.reGrep/reGrep.sh
-  3) sh ~/.reGrep/installReGrep.sh
+  3) type folder name at ~/.reGrep/folderLocation.txt  
+  4) sh ~/.reGrep/installReGrep.sh
 
 
