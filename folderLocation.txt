@@ -2,6 +2,6 @@
 # (anything beginning with # is a comment)
 # add the full path to the folder location below
 # VIM  >> use <ESC> then  i   to edit
-# VIM  >> use <ESC> then  :wq   to save and exit
+# VIM  >> use <ESC> then type  :wq  and press  <rtn>  to save and exit
 #
 $HOME/Programming/code
