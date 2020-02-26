@@ -1,7 +1,5 @@
 #!/bin/bash
 
-source $HOME/.bashrc
-
 echo '---------------------------------------'
 echo '   Recursive Grep tool'
 echo '---------------------------------------'
